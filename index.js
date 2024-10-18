@@ -7,7 +7,7 @@ function selectItem(e){
     //add border to current tab
     this.classList.add('tab-border')
     removeTabContent()
-    document.getElementById(`${this.attributes.id.value}-content`).classList.add('show')
+    document.getElementById(`${this.id}-content`).classList.add('show')
 }
 
 //remove border for every tab
